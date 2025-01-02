@@ -1,4 +1,4 @@
-# speech recognition
+# Voice Assitant
 import speech_recognition as sr # pip install SpeechRecognition
 import pyttsx3                  # pip install pyttsx3
 import pywhatkit                # pip install pywhatkit
