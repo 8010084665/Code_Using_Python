@@ -25,7 +25,7 @@ def take_command():
             command = listener.recognize_google(voice)
             command = command.lower()
             if 'alexa' in command:
-                command = command.replace('dolly', '')
+                command = command.replace(';alexa', '')
                 print(command)
     except:
         pass
